@@ -1,0 +1,145 @@
+/* Página Inicial */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 5px;
+}
+
+body{
+    font-family: 'Lora', georgia, serif;
+    font-size: 16px;
+    background: #116688;
+    color: #EEEE22;
+}
+
+nav{
+    margin-right: 10px;
+}
+
+.imgLogo{
+    margin-left: 10px;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid;
+    width: 370px;
+    border-color: #EEEE22;
+    align-items: center;
+}
+
+.apres{
+    display: block;
+    margin-left: 380px;
+    font-size: 14px;
+}
+
+a{
+    color:#FFFF22;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#DDDD22;
+}
+
+.ender{
+    display: block;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.link li{
+    margin: 0 280px 0 40px;
+    cursor: pointer;
+    list-style: square;
+    font-family: 'Rubik', verdana, sans-serif;
+    line-height: 200%;
+}
+
+
+/* Página de Memórias */
+
+.listaMemo{
+    width: 340px;
+    color: #AA0000;
+    font-family:'Rubik', verdana, sans-serif;
+    background: #EEEEEE;
+    padding: 10px 10px 10px 50px;
+    border: 4px solid #000055;
+    margin: 0 auto 10 auto;
+}
+
+.título{
+    margin-left: 570px;
+    color: #EEEE22;
+    margin-bottom: 20px;
+}
+
+.produtos{
+    display: block;
+    color: #114455;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 40px;
+    list-style: circle;
+}
+
+.preco{
+    color: #EE0000;
+}
+
+/* Página de HDs e SSDs */
+.tabDisco{
+    border: 1px solid ;
+    border-collapse: collapse;
+    margin: 6px auto 10px auto;
+    background-color: #FFFFFF;
+    font-family: 'Rubik', Verdana, sans-serif;
+    text-align: center;
+}
+
+.titulo{
+    color: #FFFF00;
+    background: #229955;
+    text-align: center;
+    font-size: 16px;   
+}
+
+.tabDisco th{
+    border: 3px solid #226699;
+    padding: 6px 12px;
+}
+
+.tabDisco td{
+    border: 3px solid #226699;
+    padding: 6px 12px;
+}
+
+.linTH{
+    color: #FFFFFF;
+    background: #22BB66;
+    vertical-align: middle;
+}
+
+.colTH{
+    color: #FFFFFF;
+    background: #2299DD;
+    text-align: left;
+}
+
+
+/* Página de Cadastro */
+.FormBox{
+    width: 520px;
+    background: #33BBBB;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border: 3px solid #EEEE22;
+}
+
