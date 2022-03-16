@@ -105,8 +105,10 @@ a:visited{
 .titulo{
     color: #FFFF00;
     background: #229955;
+    margin-left: 2px;
     text-align: center;
     font-size: 16px;   
+    width: 578px;
 }
 
 .tabDisco th{
@@ -121,14 +123,22 @@ a:visited{
 
 .linTH{
     color: #FFFFFF;
-    background: #22BB66;
-    vertical-align: middle;
+    background: #2299DD;
+    text-align: left;
 }
 
 .colTH{
     color: #FFFFFF;
-    background: #2299DD;
-    text-align: left;
+    background: #22BB66;
+    vertical-align: middle;
+}
+
+.description{
+    color: blue;
+}
+
+.price{
+    color: #EE0000;
 }
 
 
@@ -143,3 +153,20 @@ a:visited{
     border: 3px solid #EEEE22;
 }
 
+.FSLinhaInteira{
+    color: white;
+    text-align: left;
+}
+
+#email{
+    display: flex;
+    width: 490px;
+}
+
+#password{
+    float: left;
+}
+
+#confirm{
+    float: right;
+}
