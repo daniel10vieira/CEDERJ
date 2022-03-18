@@ -158,9 +158,16 @@ a:visited{
     text-align: left;
 }
 
+.stLabel{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
 #email{
     display: flex;
-    width: 490px;
+    width: 420px;
+    margin-left: 5px;
 }
 
 #password{
