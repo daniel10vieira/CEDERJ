@@ -1,179 +1,289 @@
 /* Página Inicial */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    margin-top: 5px;
+header {
+  margin-top: 5px;
 }
 
-body{
-    font-family: 'Lora', georgia, serif;
-    font-size: 16px;
-    background: #116688;
-    color: #EEEE22;
+body {
+  font-family: "Lora", georgia, serif;
+  font-size: 16px;
+  background: #116688;
+  color: #eeee22;
 }
 
-nav{
-    margin-right: 10px;
+nav {
+  margin-right: 10px;
 }
 
-.imgLogo{
-    margin-left: 10px;
-    margin-bottom: 4px;
-    padding-bottom: 5px;
-    border-bottom: 3px solid;
-    width: 370px;
-    border-color: #EEEE22;
-    align-items: center;
+.imgLogo {
+  margin-left: 10px;
+  margin-bottom: 4px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid;
+  width: 370px;
+  border-color: #eeee22;
+  align-items: center;
 }
 
-.apres{
-    display: block;
-    margin-left: 380px;
-    font-size: 14px;
+.apres {
+  display: block;
+  margin-left: 380px;
+  font-size: 14px;
 }
 
-a{
-    color:#FFFF22;
-    text-decoration: none;
+a {
+  color: #ffff22;
+  text-decoration: none;
 }
 
-a:visited{
-    color:#DDDD22;
+a:visited {
+  color: #dddd22;
 }
 
-.ender{
-    display: block;
-    margin-left: 400px;
-    text-align: center;
+.ender {
+  display: block;
+  margin-left: 400px;
+  text-align: center;
 }
 
-.link li{
-    margin: 0 280px 0 40px;
-    cursor: pointer;
-    list-style: square;
-    font-family: 'Rubik', verdana, sans-serif;
-    line-height: 200%;
+.link li {
+  margin: 0 280px 0 40px;
+  cursor: pointer;
+  list-style: square;
+  font-family: "Rubik", verdana, sans-serif;
+  line-height: 200%;
 }
-
 
 /* Página de Memórias */
 
-.listaMemo{
-    width: 340px;
-    color: #AA0000;
-    font-family:'Rubik', verdana, sans-serif;
-    background: #EEEEEE;
-    padding: 10px 10px 10px 50px;
-    border: 4px solid #000055;
-    margin: 0 auto 10 auto;
+.listaMemo {
+  width: 340px;
+  color: #aa0000;
+  font-family: "Rubik", verdana, sans-serif;
+  background: #eeeeee;
+  padding: 10px 10px 10px 50px;
+  border: 4px solid #000055;
+  margin: 0 auto 10 auto;
 }
 
-.título{
-    margin-left: 570px;
-    color: #EEEE22;
-    margin-bottom: 20px;
+.título {
+  margin-left: 570px;
+  color: #eeee22;
+  margin-bottom: 20px;
 }
 
-.produtos{
-    display: block;
-    color: #114455;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    line-height: 40px;
-    list-style: circle;
+.produtos {
+  display: block;
+  color: #114455;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 40px;
+  list-style: circle;
 }
 
-.preco{
-    color: #EE0000;
+.preco {
+  color: #ee0000;
 }
 
 /* Página de HDs e SSDs */
-.tabDisco{
-    border: 1px solid ;
-    border-collapse: collapse;
-    margin: 6px auto 10px auto;
-    background-color: #FFFFFF;
-    font-family: 'Rubik', Verdana, sans-serif;
-    text-align: center;
+.tabDisco {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: 6px auto 10px auto;
+  background-color: #ffffff;
+  font-family: "Rubik", Verdana, sans-serif;
+  text-align: center;
 }
 
-.titulo{
-    color: #FFFF00;
-    background: #229955;
-    margin-left: 2px;
-    text-align: center;
-    font-size: 16px;   
-    width: 578px;
+.titulo {
+  color: #ffff00;
+  background: #229955;
+  margin-left: 2px;
+  text-align: center;
+  font-size: 16px;
+  width: 578px;
 }
 
-.tabDisco th{
-    border: 3px solid #226699;
-    padding: 6px 12px;
+.tabDisco th {
+  border: 3px solid #226699;
+  padding: 6px 12px;
 }
 
-.tabDisco td{
-    border: 3px solid #226699;
-    padding: 6px 12px;
+.tabDisco td {
+  border: 3px solid #226699;
+  padding: 6px 12px;
 }
 
-.linTH{
-    color: #FFFFFF;
-    background: #2299DD;
-    text-align: left;
+.linTH {
+  color: #ffffff;
+  background: #2299dd;
+  text-align: left;
 }
 
-.colTH{
-    color: #FFFFFF;
-    background: #22BB66;
-    vertical-align: middle;
+.colTH {
+  color: #ffffff;
+  background: #22bb66;
+  vertical-align: middle;
 }
 
-.description{
-    color: blue;
+.description {
+  color: blue;
 }
 
-.price{
-    color: #EE0000;
+.price {
+  color: #ee0000;
 }
-
 
 /* Página de Cadastro */
-.FormBox{
-    width: 520px;
-    background: #33BBBB;
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 10px;
-    border: 3px solid #EEEE22;
+.FormBox {
+  width: 520px;
+  background: #33bbbb;
+  padding: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 3px solid #eeee22;
 }
 
-.FSLinhaInteira{
-    color: white;
-    text-align: left;
+legend {
+  margin-left: 10px;
 }
 
-.stLabel{
-    display: flex;
-    margin-left: 5px;
-    margin-top: 5px;
+fieldset {
+  padding: 5px;
+  border-color: #ffffff;
+  margin-bottom: 5px;
 }
 
-#email{
-    display: flex;
-    width: 420px;
-    margin-left: 5px;
+#parag {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
-#password{
-    float: left;
+/* Fieldset de identificação */
+input,
+textarea {
+  border-radius: 2px;
+  border: none;
 }
 
-#confirm{
-    float: right;
+.FSLinhaInteira {
+  color: white;
+}
+
+.stLabel {
+  display: flex;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#email input {
+  width: 390px;
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+
+#password input {
+  width: 80px;
+  margin-left: 35px;
+}
+
+#confirm {
+  margin-left: 140px;
+}
+
+#confirm input {
+  width: 80px;
+  margin-left: 10px;
+}
+
+/* Fieldset de dados pessoais */
+#nome input {
+  width: 390px;
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+
+#endereco {
+  display: flex;
+}
+
+#endereco textarea {
+  width: 390px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+#telefone input {
+  width: 80px;
+  margin-left: 12px;
+}
+
+#celular {
+  margin-left: 157px;
+}
+
+#celular input {
+  width: 80px;
+  margin-left: 10px;
+}
+
+/* Fieldset de nascimento */
+#fieldNasc {
+  display: inline;
+  width: 205px;
+}
+
+#nasc {
+  width: 45px;
+  margin: 0 5px;
+}
+
+/* Fieldset de sexo */
+#fieldSexo {
+  display: inline;
+  width: 205px;
+  padding-left: 15px;
+  margin-left: 60px;
+}
+
+#sexo {
+  background: red;
+  /* color: red;
+    font-style: red;
+    border-color: red;  */
+}
+
+/* Botões */
+#buttons {
+  display: block;
+  text-align: end;
+  margin: 20px 10px 0px 10px;
+}
+
+#sub {
+  font-size: 16px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+}
+
+#limpar {
+  font-size: 16px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
 }

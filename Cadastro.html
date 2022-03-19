@@ -11,59 +11,108 @@
     <!-- Header table -->
     <header>
       <table>
-            <nav>
-                <tr>
-                    <td>
-                        <img class="imgLogo" src="./Assets/PakiLogoTopo.png" alt="Logo_Topo_PakiMemo" />
-                      </td>
-                    <td class="ender">
-                        <address>
-                            <p>Rua do Poço do Elefantinho</p> 
-                            <p> (21) 4321-5678</p>
-                            <p>contato@paquiderme.com.br</p>
-                        </address>
-                    </td>
-                </tr>
-            </nav>
+        <nav>
+          <tr>
+            <td>
+              <img
+                class="imgLogo"
+                src="./Assets/PakiLogoTopo.png"
+                alt="Logo_Topo_PakiMemo"
+              />
+            </td>
+            <td class="ender">
+              <address>
+                <p>Rua do Poço do Elefantinho</p>
+                <p>(21) 4321-5678</p>
+                <p>contato@paquiderme.com.br</p>
+              </address>
+            </td>
+          </tr>
+        </nav>
       </table>
     </header>
 
     <section>
-    <table>
-      <tr>
-        <ul>
-          <td class="link">
-            <li><a target="_blank" href="PakiMemo.html">INICIAL</a></li>
-            <li><a target="_blank" href="Memorias.html">MEMÓRIAS</a></li>
-            <li><a target="_blank" href="Discos.html">HDs/SSDs</a></li>
-            <li><a target="_blank" href="Cadastro.html">CADASTRO</a></li>
-            <li><a href="">COMPRAS</a></li>
-          </td>
-        </ul>
-        <td>
-          <form class="FormBox" action="">
-            <p>Cadastro</p>
+      <table>
+        <tr>
+          <ul>
+            <td class="link">
+              <li><a target="_blank" href="PakiMemo.html">INICIAL</a></li>
+              <li><a target="_blank" href="Memorias.html">MEMÓRIAS</a></li>
+              <li><a target="_blank" href="Discos.html">HDs/SSDs</a></li>
+              <li><a href="">CADASTRO</a></li>
+              <li><a target="_blank" href="Compras.html">COMPRAS</a></li>
+            </td>
+          </ul>
+
+          <!-- Tabela de cadastro -->
+
+          <td>
+            <form class="FormBox" action="">
+              <p id="parag">Cadastro</p>
               <fieldset class="FSLinhaInteira">
                 <legend>Identificação</legend>
-                <label class="stLabel" for="email">
-                  <p>E-mail:</p>
-                  <input id="email" type="email">
+                <label id="email" for="">
+                  E-mail:
+                  <input type="e-mail" />
                 </label>
-                <label for="password">
-                  <p>Senha:</p>
-                  <input id="password"  type="password">
+
+                <label id="password" for="">
+                  Senha:
+                  <input type="password" />
                 </label>
-                <label for="confirm">
-                  <p>Confirme:</p>
-                  <input id="confirm" type="password">
+
+                <label id="confirm" for="">
+                  Confirme:
+                  <input type="password" />
                 </label>
               </fieldset>
-          </form>
-        </td>
-      </tr>
-      
-    </table>
-</section>
 
+              <fieldset class="FSLinhaInteira">
+                <legend>Dados Pessoais</legend>
+                <label id="nome" for="">
+                  Nome:
+                  <input type="e-mail" />
+                </label>
+                <label id="endereco" for="">
+                  Endereço:
+                  <textarea name="" id="" cols="50" rows="4"></textarea>
+                </label>
+                <label id="telefone" for="">
+                  Telefone:
+                  <input type="tel" />
+                </label>
+                <label id="celular" for="">
+                  Celular:
+                  <input type="tel" />
+                </label>
+
+                <fieldset id="fieldNasc" class="FSLinhaInteira">
+                  <legend>Nascimento</legend>
+                  <input id="nasc" type="number" />/
+                  <input id="nasc" type="number" />/
+                  <input id="nasc" type="number" />
+                </fieldset>
+
+                <fieldset id="fieldSexo" class="FSLinhaInteira">
+                  <legend>Sexo</legend>
+                  <input type="radio" name="MAS" value="masculino" />
+                  Masc
+                  <input type="radio" name="MAS" value="feminino" />
+                  Fem
+                  <input id="sexo" type="radio" name="MAS" value="outro" />
+                  Outro
+                </fieldset>
+              </fieldset>
+
+              <div id="buttons">
+                <button id="sub" type="submit">Cadastrar</button>
+                <button id="limpar" type="reset">Limpar</button>
+              </div>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </section>
   </body>
 </html>
