@@ -60,6 +60,10 @@ a:visited {
   line-height: 200%;
 }
 
+#logoCenter{
+  margin-left: 310px;
+}
+
 /* Página de Memórias */
 
 .listaMemo {
@@ -174,6 +178,8 @@ textarea {
 
 .FSLinhaInteira {
   color: white;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .stLabel {
@@ -287,3 +293,109 @@ textarea {
   border-radius: 5px;
   color: #000000;
 }
+
+
+/* Página de Compras */
+
+#title{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#mail input{
+  width: 150px;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+#name input{
+  width: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 8px;
+}
+
+#textArea{
+  width: 460px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+#select select{
+  display: flex;
+  width: 180px;
+  margin: -15px 0px 10px 90px;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+#value{
+  margin-left: 320px;
+}
+
+#value input{
+  width: 80px;
+  height: 25px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#number input{
+  display: inline;
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+#validade{
+  margin-top: 5px;
+  display: block;
+}
+
+#validade input{
+  display: inline;
+  margin-right: 5px;
+}
+
+#mês{
+  width: 35px;
+}
+
+#ano{
+  width: 50px;
+}
+
+#parcelas input{
+  width: 35px;
+  margin-top: 15px;
+}
+
+#bandeira{
+  display: block;
+  width: 30px;
+  height: 80px;
+  margin-left: 350px;
+  margin-top: -65px;
+
+}
+
+#bandeira input{
+  display: inline;
+  margin-right: 3px;
+}
+
+#incluir{
+  font-size: 16px;
+  width: 75px;
+  height: 30px;
+  margin-left: 157px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+}
+

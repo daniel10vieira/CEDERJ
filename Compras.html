@@ -48,7 +48,92 @@
 
 
             <td>
-              <h1>COLOCA AQUI DENTRO AS COISAS DE COMPRAS !!!!!</h1>
+              <form class="FormBox" action="">
+                <p id="title">Compras</p>
+                <fieldset class="FSLinhaInteira">
+                  <legend>Identificação</legend>
+                  <label id="mail" for="">
+                    E-mail:
+                    <input type="e-mail" />
+                  </label>
+  
+                  <label id="password" for="">
+                    Senha:
+                    <input type="password" />
+                    <p>Se você ainda não tem cadastro clique <a href="./Cadastro.html">aqui.</a></p>
+                  </label>
+                </fieldset>
+  
+                <fieldset class="FSLinhaInteira">
+                  <legend>Lista de Compras</legend>
+                  <label id="name" for="">
+                    Produtos:
+                    <select name="" id="select">
+                      <option value="----" selected>----</option>
+                      <option id="bold" value="memória ddr3">Memória DDR3</option>
+                      <option value="kingston 4gb">Kingston 4Gb</option>
+                      <option value="kingston 4gb">Samsung 8Gb</option>
+                      <option id="bold" value="memória ddr3">Memória DDR4</option>
+                      <option value="kingston 4gb">kingston Fury 8Gb</option>
+                      <option value="kingston 4gb">Corsair Vengeance 8Gb</option>
+                      <option id="bold" value="memória ddr3">HD Sata III</option>
+                      <option value="kingston 4gb">Western Digital 500 Gb</option>
+                      <option value="kingston 4gb">Seagate 1 Tb</option>
+                      <option id="bold" value="memória ddr3">SSD Sata III</option>
+                      <option value="kingston 4gb">Samdisk 480 Gb</option>
+                      <option value="kingston 4gb">kingston 960 Gb</option>
+                      <option id="bold" value="memória ddr3">SSD M2</option>
+                      <option value="kingston 4gb">Kingston 500 Gb</option>
+                      <option value="kingston 4gb">Western Digital 4Gb</option>
+                    </select>
+                  </label>
+                  <button id="incluir">Incluir</button>
+                  <label for="textArea">
+                    <textarea name="" id="textArea" cols="50" rows="4"></textarea>
+                  </label>
+                  <label id="value" for="">
+                    Valor: R$
+                    <input type="text" />
+                  </label>
+  
+                  <fieldset class="FSLinhaInteira">
+                    <legend>Dados do Cartão</legend>
+                    <label id="number" for="">
+                      Número:
+                      <input type="number" />
+                      <input type="number" />
+                      <input type="number" />
+                      <input type="number" />
+                    </label>
+                    <label id="validade" for="">
+                      Validade:
+                      <input id="mês" type="number">/
+                      <input id="ano" type="number">
+                    </label>
+                    <label id="parcelas" for="">
+                       Parcelas:
+                       <input type="number">
+                       x Sem Juros
+                    </label>
+                    <fieldset id="bandeira" >
+                      <legend>Bandeira</legend>
+                      <input type="radio" name="MAS" value="Visa" />
+                      Visa
+                      <input type="radio" name="MAS" value="Master" />
+                      Master
+                      <input type="radio" name="MAS" value="Elo" />
+                      Elo
+                    </fieldset>
+                  </fieldset>
+  
+                  
+                </fieldset>
+  
+                <div id="buttons">
+                  <button id="sub" type="submit">Cadastrar</button>
+                  <button id="limpar" type="reset">Limpar</button>
+                </div>
+              </form>
             </td>
           </nav>
         </tr>
